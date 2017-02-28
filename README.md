@@ -47,8 +47,8 @@ exports.pretty = {
 exports.pretty = {
         i18n:false,
         messages:{
-            0:"成功",//this.success("data")   =>   {"code":0,"message":"成功"}
-            1:"失败"//this.fail(1)   => {"code":1,"message":"失败"}
+            0:"成功",//ctx.success("data")   =>   {"code":0,"message":"成功","data":"data"}
+            1:"失败"//ctx.fail(1)   => {"code":1,"message":"失败"}
         }
 };
 ```
